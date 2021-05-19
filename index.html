@@ -3,33 +3,209 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>startnieri</title>
-</head>
-
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>startnieri by addinaf</title>
     <style>
         h1 {
-            color: darkblue;
-            font-size: 24px;
+            color: #022362;
+            text-align: left;
+            font-family: Roboto;
+            font-size: 36px;
+            font-weight: bolder;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #fa5060;
+            text-align: left;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 400;
+            margin-left: 15px;
+        }
+
+        h3 {
+            color: #555555;
+            text-align: left;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 14px;
+            margin-bottom: 20px;
         }
 
         p {
-            color: darkred;
-            font-size: 16px;
+            color: #555555;
+            text-align: left;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 15px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px 60px;
+            border-radius: 25px;
+            border: 3px solid #022362;
+            display: flex;
+            align-items: center;
+        }
+
+        button {
+            display: inline;
+            box-shadow: inset 0px 1px 0px 0px #555555;
+            background: #fa5060;
+            background-color: #fa5060;
+            border-radius: 25px;
+            border: 1px solid #fcdada;
+            box-shadow: 2px 2px 2px #fcdada;
+            display: inline;
+            padding: 15px 25px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            transition: all 200ms ease-in-out;
+            font-size: 10px;
+            font-family: Roboto;
+            font-weight: bolder;
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 200ms ease-in-out;
+            width: 125px;
+            text-decoration: none;
+        }
+
+        .read-more {
+            text-decoration: none;
+            color: white;
+        }
+
+        .about {
+            text-decoration: none;
+            color: white;
+        }
+
+        .linkedin {
+            text-decoration: none;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        button:hover {
+            background: #022362;
+            color: #ffffff;
+            cursor: pointer;
+            margin-bottom: 15px;
+            font-weight: bolder;
+        }
+
+        footer {
+            color: #d37576;
+            text-align: left;
+            font-family: Nunito;
+            font-size: 10px;
+            font-weight: bolder;
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+
+        .addina {
+            text-decoration: none;
+            color: #d37576;
+        }
+
+        .left-column {
+            flex: 1;
+        }
+
+        .right-column {
+            width: 300px;
+        }
+
+        .right-column img {
+            width: 100%;
         }
     </style>
-    <h1>startnieri</h1>
-    <p>
-        <strong>startnieri</strong> is an all in one app service where the
-        foreigners can find and collect the information regarding the documents
-        that they need as a foreigner living in Italy. The app service provided
-        the information of the documents, the aims of the documents, and to keep
-        the user (the foreigner) in track with their documents' process.
-    </p>
-    <img src="https://static.wixstatic.com/media/ec9097_9dae01334e3d477494f113e5f73b1f83~mv2.jpg/v1/fill/w_794,h_446,al_c,q_90,usm_0.66_1.00_0.01/1jpg.webp"
-        width="500" />
-    <br />
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-column">
+            <h1>startnieri:
+                <br />we help the <em>stranieri</em> to start!
+            </h1>
+            <h2>
+                <strong>startnieri</strong> is an all-in-one information source for the obligatory
+                paperwork designed for a foreigner residing in Italy
+            </h2>
+            <h3><em>concept design by Addina Faizati</em></h3>
+            <p>
+                <strong>startnieri</strong> is an all in one app service where the
+                foreigners can collect the information regarding the obligatory documents
+                and paperwork that they need as a foreigner living in Italy. The app
+                provided the information and the aims of the documents, and to keep them
+                in track with the process.
+                <br />
+                <strong>startnieri</strong> aim to be a complete guide for the foreigner's
+                obligatory paperwork that they need to do in order to make it easier and
+                faster to keep in track with the bureaucracy process. The seamless
+                experience of a foreigner during the process eventually will make the
+                bureaucracy more efficient and faster for the staffs in charge and the
+                government as well in the long term period. To gain the trust and cut the
+                cost of the time and energy wasted from the efficiency.
+            </p>
+            <button class="read-more">
+                <a href="https://www.addinaf.com/projects/startnieri" target="_blank">
+                    Read More</a>
+            </button>
+            <button class="about">
+                <a href="https://www.addinaf.com/about" target="_blank">About Addina</a>
+            </button>
+            <button class="linkedin">
+                <a href="https://www.linkedin.com/in/addinaf/" target="_blank">LinkedIn</a>
+            </button>
+            <br />
+            <footer>
+                designed and coded by<br />
+                <a href="https://www.addinaf.com/about" target="_blank" class="addina"><strong></strong>addina
+                    faizati</strong></a> <br />
+                2020
+            </footer>
+            <br />
+        </div>
+        <div class="right-column">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/990/original/startnieri.png?1602510840"
+                width="400">
+        </div>
+    </div>
+    <script>
+        function readMore() {
+            let name = prompt("What is your name? 😄");
+            alert("Hi " + name + "! Thank you for your interest towards the project! 💙")
+        }
+        let readMoreButton = document.querySelector(".read-more");
+        readMoreButton.addEventListener("click", readMore);
+        function about() {
+            let nameAbout = prompt("What is your name? 👋🏻");
+            alert("Hi " + nameAbout + "! Feel free to contact me anytime for any possible work in the future! 👩🏻‍💻")
+        }
+        let aboutButton = document.querySelector(".about");
+        aboutButton.addEventListener("click", about);
+        function linkedin() {
+            let nameLinkedin = prompt("What is your name? 😊")
+            alert("Hi " + nameLinkedin + "! Let's connect! 🙋🏻‍♀️")
+        }
+        let linkedinButton = document.querySelector(".linkedin")
+        linkedinButton.addEventListener("click", linkedin);
+    </script>
 </body>
 
 </html>
